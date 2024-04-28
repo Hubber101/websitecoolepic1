@@ -2,7 +2,7 @@
 function loadNews() {
     fetch('src/news.txt')
         .then(response => response.text())
-        .then(text => document.getElementById('newsContent').textContent = text)
+        .then(text => document.getElementById('newsContent').innerHTML = text)
         .catch(error => console.error('Error loading news:', error)); 
 }
 
