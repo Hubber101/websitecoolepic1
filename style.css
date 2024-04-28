@@ -5,14 +5,14 @@
 
 body {
     background-color: #16112f; /* Your selected orange color */ 
-    color: #003049; /* Ensure good contrast on orange */
+    color: #16112f; /* Ensure good contrast on orange */
 }
 
 header {
-    background-color: #0b093a; /* Orange */
+    background-color: #16112f; /* Orange */
     color: #128fd2; /* White text */
     text-align: center;
-    padding: -2px -4;
+    padding: 2px 4;
     font-family: invasionfont;
     font-size: 30px;
 }
@@ -33,7 +33,7 @@ header {
 
 #newsHeader {
     text-align: center;
-    padding: -2px -4;
+    padding: 2px 4;
     font-family: invasionfont;
     font-size: 100px;
 }
@@ -42,6 +42,24 @@ header {
     font-size: 18px; /* Larger font size for news section */
     line-height: 1.5; /* Leading for readability */
     font-family: font;
+}
+
+a {
+    color: #007bff; /* Blue color for the link */
+    text-decoration: underline; /* Add underline */
+}
+
+#rulesHeader {
+    text-align: center;
+    padding: 0px 0;
+    font-family: invasionfont;
+    font-size: 30px;
+}
+
+#rulesContent {
+    font-family: invasionfont;
+    color:#00fffb;
+    text-align: center; 
 }
 
 /* Add styling for the Button */

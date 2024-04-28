@@ -1,0 +1,16 @@
+1. You can invade a nation, but first you must make a 5 or more on a d20 roll.<br>
+     1.5. If you roll a 20, you get a 2x chance of your strategy working.<br>
+<br>
+2. To invade a nation, you need to come up with a strategy. When you have a strategy, submit a form or @ me with the strategy and the person you'd like to invade.<br>
+<br>
+3. This also applies to alliances, however the team you're trying to ally with must also land a d20 roll, and can decline/cancel the alliance at any time.<br>
+<br>
+4. Nations can defend or counterattack invasions, but they must respond within an hour and have a "better scored" strategy. The strategy is scored /1000 by the AI bot. If they don't respond within an hour, a "ghost" invasion can begin, where the attack is treated as a sneak attack to the AI. In this case, the opponent can respond at any point and start a counterattack, basically "re-doing" the invasion with both players active.<br>
+<br><br>
+There are various "actions" you can take. Taking them has different requirements like land, research points, power, respect, etc. These are measured by Nicholas and the AI bot.<br>
+<br>
+Actions include:<br>
+Making weapons (land + research points)<br>
+Making inventions (facility space + research points, gained respect + power)<br>
+Starting wars (weapons, gained land, money, respect (if you win), lost land, money, respect (if you lose))<br>
+Making misc. things, such as your own inventions (research + facility space, gained power)
