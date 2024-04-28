@@ -1,20 +1,9 @@
+// Function to fetch news from the text file
 function loadNews() {
-    var xhr = new XMLHttpRequest();
-    xhr.open('GET', '/src/news.txt', true);
-
-    xhr.onload = function() {
-        if (this.status == 200) {
-            document.getElementById('newsContent').textContent = this.responseText;
-        } else {
-            console.error('Error loading news:', this.status);
-        }
-    };
-
-    xhr.onerror = function() {
-        console.error('Error loading news. Check if file exists.');
-    }
-
-    xhr.send();
+    fetch('/src/news.txt')
+        .then(response => response.text())
+        .then(text => document.getElementById('newsContent').textContent = text)
+        .catch(error => console.error('Error loading news:', error)); 
 }
 
 // Call the news loading function on page load
