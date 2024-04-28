@@ -1,0 +1,31 @@
+body {
+    background-color: #fd7e14; /* Your selected orange color */ 
+    color: #003049; /* Ensure good contrast on orange */
+    font-family: sans-serif; 
+}
+
+header {
+    background-color: #fd7e14; /* Orange */
+    color: #003049; /* White text */
+    text-align: center;
+    padding: 20px 0;
+}
+
+#mainImage {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    display: block;
+}
+
+#newsSection {
+    background-color:  #003049; /* Dark Blue */
+    padding: 30px;
+    margin: 30px 0;
+    color: #fff; /* White text */
+}
+
+#newsContent {
+    font-size: 18px; /* Larger font size for news section */
+    line-height: 1.5; /* Leading for readability */
+}
